@@ -1,3 +1,10 @@
+pulseaudio-policy-enforcement (0.5.35+0m5) unstable; urgency=low
+
+  * This entry has been added by BIFH queue processor
+    Suffix +0m5 added to package revision
+
+ -- Harri Mahonen <ext-harri.mahonen@nokia.com>  Wed, 16 Dec 2009 11:38:58 +0200
+
 pulseaudio-policy-enforcement (0.5.35) unstable; urgency=low
 
   * Bumped version.
