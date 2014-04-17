@@ -1,3 +1,9 @@
+pulseaudio-policy-enforcement (0.5.36-1) unstable; urgency=low
+
+  * Disable useless logs
+
+ -- Pali Rohár <pali.rohar@gmail.com>  Thu, 17 Apr 2014 20:36:36 +0200
+
 pulseaudio-policy-enforcement (0.5.35+0m5) unstable; urgency=low
 
   * This entry has been added by BIFH queue processor
