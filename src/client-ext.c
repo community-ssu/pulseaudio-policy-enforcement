@@ -228,7 +228,9 @@ static void client_ext_set_arg0(struct pa_client *client)
     snprintf(path, sizeof(path), "/proc/%d/cmdline", pid);
     
     if ((fd = open(path, O_RDONLY)) < 0) {
+#if 0
         pa_log("%s: Can't obtain command line", __FILE__);
+#endif
         return;
     }
     
