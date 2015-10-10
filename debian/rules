@@ -5,6 +5,12 @@ include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/class/autotools.mk
 
 DEB_CONFIGURE_SCRIPT_ENV += LDFLAGS="-Wl,-z,defs,--as-needed"
+
+# Use thumb mode if it enabled.
+ifneq (,$(findstring thumb,$(DEB_BUILD_OPTIONS)))
+	DEB_CONFIGURE_SCRIPT_ENV += CFLAGS="$(CFLAGS) -mthumb"
+endif
+
 DEB_MAKE_BUILD_TARGET = all #doc
 DEB_DH_INSTALL_SOURCEDIR = debian/tmp
 DEB_DH_STRIP_ARGS = --dbg-package=pulseaudio-policy-enforcement-dbg

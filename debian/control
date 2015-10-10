@@ -13,7 +13,7 @@ Section: sound
 Package: pulseaudio-policy-enforcement
 Section: sound
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, kernel-feature-errata-430973-workaround [armel]
 Description: Pulseaudio module for policy enforcement
  Pulseaudio module for policy enforcement.
 

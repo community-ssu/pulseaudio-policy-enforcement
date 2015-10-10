@@ -1,3 +1,9 @@
+pulseaudio-policy-enforcement (0.5.36-1+thumb0) unstable; urgency=low
+
+  * Thumb2 compiled
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Sat, 10 Oct 2015 13:06:14 +0300
+
 pulseaudio-policy-enforcement (0.5.36-1) unstable; urgency=low
 
   * Disable useless logs
